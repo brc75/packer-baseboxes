@@ -2,7 +2,7 @@
 
 # Update the box
 apt-get -y update
-apt-get -y upgrade
+apt-get -y dist-upgrade
 
 # Install dependencies
 apt-get -y install dkms
